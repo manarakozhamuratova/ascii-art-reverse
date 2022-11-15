@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"ascii-art-fs/app"
+	"fmt"
+)
 
 func main() {
-	fmt.Println("Hello")
+	fmt.Println(app.Start())
 }

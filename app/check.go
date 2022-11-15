@@ -122,7 +122,6 @@ func Start() error {
 		return err
 	}
 	words := arguments[0]
-	// fmt.Printf("--->%v<---\n", words)
 	if ok, value := isNewLineOnly(words); ok {
 		fmt.Print(value)
 		return nil
